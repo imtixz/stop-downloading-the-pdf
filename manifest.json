@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Stop Downloading THE PDF",
+    "version": "1.0",
+    "description": "Intercepts grade-sheet PDF requests and loads PDF in the current tab.",
+    "permissions": ["scripting"],
+    "host_permissions": [
+      "https://connect.bracu.ac.bd/student/grade-sheet"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://connect.bracu.ac.bd/student/dashboard", "https://connect.bracu.ac.bd/student/grade-sheet"],
+        "js": ["content.js"],
+        "run_at": "document_start"
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["inject.js"],
+        "matches": ["https://connect.bracu.ac.bd/*"]
+      }
+    ]
+  }
+  
