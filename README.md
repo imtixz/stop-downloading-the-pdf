@@ -2,6 +2,8 @@
 
 A browser extension that opens your BRACU grade-sheet PDF directly in the browser instead of downloading it.
 
+![screenshot of the grade sheet page in connect](image.png)
+
 ## How to Install (for Chrome)
 
 1. Download the browser extension's zip file by clicking [here](https://github.com/imtixz/stop-downloading-the-pdf/archive/refs/heads/main.zip).
