@@ -6,7 +6,7 @@ A browser extension that opens your BRACU grade-sheet PDF directly in the browse
 
 > **Note:** This is an unofficial browser extension and is not officially approved or listed on the Chrome Web Store or Firefox Add-ons site, as the approval process takes time. Because of this, you need to use a workaround to install it manually instead of a simple "Add to Chrome/Firefox" button. Sorry for the inconvenience, but here are the detailed steps for your browser below.
 
-## How to Install (for Chrome) _(Recommended)_
+## How to Install on Chrome _(Recommended)_
 
 1. Download the browser extension's zip file by clicking [here](https://github.com/imtixz/stop-downloading-the-pdf/archive/refs/heads/main.zip).
 2. Extract the zip file to any location.
@@ -18,7 +18,7 @@ A browser extension that opens your BRACU grade-sheet PDF directly in the browse
 
 If you want to remove the extension later on, just delete it from the Chrome extensions page.
 
-## How to Install (for Firefox) 
+## How to Install on Firefox
 
 > **Note:** Installing the extension in Firefox is not recommended, as it is very inconvenient. The extension will be removed every time you close Firefox, so you'll need to repeat step (3-5) each time you open firefox.
 
