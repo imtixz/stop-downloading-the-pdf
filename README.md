@@ -26,5 +26,5 @@ If you want to remove the extension later on, just delete it from the Chrome ext
 2. Extract the zip file to any location.
 3. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
 4. Click **Load Temporary Add-on...**
-5. Select the `manifest.json` file from the folder you extracted in step 2.
+5. Select the folder you extracted in step 2 (the one with `manifest.json` inside).
 6. Done! Now visit your BRACU dashboard and you'll find that the download button has turned into a view PDF button.
